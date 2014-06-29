@@ -59,6 +59,7 @@
         
         _lineView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 0.5)];
         _lineView.backgroundColor = [UIColor blackColor];
+        _lineView.hidden = YES;
         
         [_contentView addSubview:_lineView];
         
